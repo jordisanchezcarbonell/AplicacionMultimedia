@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <Button
+        android:id="@+id/caputrarArchivo"
+        android:text="Abrir Camara"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:background="#3b8361"
+        android:layout_margin="5dp"
+        />
+
+    <Button
+        android:id="@+id/reproducirArchivo"
+        android:text="Reproducir archivos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#3b8361"
+        android:layout_margin="5dp"
+
+        android:layout_weight="1"
+
+        />
+
+    <Button
+        android:id="@+id/editarArchivo"
+        android:text="Editar archivos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:layout_margin="5dp"
+
+        android:background="#3b8361"
+        />
+
+</LinearLayout>

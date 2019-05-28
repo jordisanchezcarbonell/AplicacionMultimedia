@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+<Button
+    android:id="@+id/btnCamera"
+    android:layout_gravity="center_vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Abrir Camara"
+    android:layout_marginTop="100dp"
+    android:background="@drawable/ripple"
+
+    tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/GrabarAudio"
+        android:text="Grabar audio"
+        android:layout_width="match_parent"
+        android:background="@drawable/ripple"
+        android:layout_centerVertical="true"
+
+        android:layout_height="wrap_content"
+       />
+
+
+
+</RelativeLayout>
+
+
+
