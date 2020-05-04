@@ -1,3 +1,3 @@
 # AplicacionMultimedia
 
-![](PROYECTOPDMD/imagenes/imagenes.png)
+![](/PROYECTOPDMD/imagenes/imagenes.png)
